@@ -213,6 +213,6 @@ PRD-Website-SMA-Dempo/
 │   │   └── app.js
 │   └── images/
 └── components/
-    ├── navbar.html
+    ├── header.html
     └── footer.html
 ```

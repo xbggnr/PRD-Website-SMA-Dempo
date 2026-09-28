@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    max-width: 100%;
+}
+
+.container {
+    background-color: #632e00;
+    color: #f6f2e8;
+    margin-inline: auto;
+    padding: 5px 20px;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navbar-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.navbar-box .menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-box .menu li {
+    list-style: none;
+    padding: 2px;
+}
+
+.navbar-box .menu li a {
+    text-decoration: none;
+    color: #f6f2e8;
+    border: none;
+    padding: 1px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+.navbar-box .menu li a:hover{
+    background-color:gray;
+}
+
+@media (max-width: 992px){
+    .navbar-box {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:768px) {
+    .navbar-box .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+    }
+}
+
+@media (max-width:576px){
+    .logo-header h1{
+        text-align: center;
+    }
+}
+
+/*Beranda*/
+.hero-section{
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.welcome-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/WhatsApp-Image-2024-08-28-at-10.56.06-4.jpeg);
+    padding: 10px 0px;
+    justify-content: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.welcome p{
+    font-size: 30px;
+    font-weight: 100;
+    color: whitesmoke;
+}
+
+.welcome h1{
+    font-size: 50px;
+    color: bisque;
+}
