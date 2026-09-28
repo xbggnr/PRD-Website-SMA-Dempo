@@ -2,7 +2,7 @@
 **Website Profil Sekolah SMA Dempo**
 
 ### Identitas
-Nama : Benedictus Imanuel Wicaksono
+Nama : Benedictus Imanuel Wicaksono<br>
 NRP  : 5025251039
 
 ## 1. Informasi Produk
