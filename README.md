@@ -72,7 +72,7 @@ Saat ini website sekolah menjadi media digital yang vital sebagai sumber informa
 
 * **FR-01 Beranda**
   - Header dan navigation
-  - Hero section: nama sekolah, tagline, sejarah sekolah, tombol Profil Sekolah, PPDB, Video Profil
+  - Hero section: nama sekolah, tagline, tombol Profil Sekolah, PPDB, Video Profil
   - Keunggulan sekolah
   - Berita terbaru
   - Agenda kegiatan
@@ -148,7 +148,7 @@ Saat ini website sekolah menjadi media digital yang vital sebagai sumber informa
 
 ## 9. Teknologi yang Digunakan
 * **Level 3 - Modern Web Development**
-  - Frontend: HTML, CSS, Javascript(belum)
+  - Frontend: HTML, CSS, Javascript
   - Backend: Node.js (belum)
   - Database: MySQL (belum)
   - Version Control: Git, GitHub
